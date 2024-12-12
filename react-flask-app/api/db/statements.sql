@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS test (
     length TEXT NOT NULL
 );
 
-INSERT INTO test(name, age) 
+INSERT INTO test(movie_name, director, genre, release_date, length) 
 VALUES 
 ("Interstella", "Christopher Nolan","Action","2017","2:30"),
 ("Avengers", "Anothony Russo","Fantasy","2016","2:45"),
@@ -19,7 +19,4 @@ VALUES
 ("The Avengers: Age of Ultron", "Anothony Russo","Fantasy","2010","2:45"),
 ("The Avengers: Infinity War", "Anothony Russo","Fantasy","2009","2:45"),
 ("The Avengers: Endgame", "Anothony Russo","Fantasy","2008","2:45");
-
-DROP TABLE IF EXISTS test;
- 
 
